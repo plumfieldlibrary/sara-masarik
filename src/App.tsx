@@ -1,13 +1,14 @@
 
-import { Button } from './components/ui/button'
+import { Route, Routes } from 'react-router'
+import Main from './pages'
 
 function App() {
 
 
   return (
-    <div className='p-4 flex items-center justify-center'>
-      <Button asChild><a href='https://example.com'>Click me!</a></Button>
-    </div>
+    <Routes>
+      <Route index element={<Main />} />
+    </Routes>
   )
 }
 
