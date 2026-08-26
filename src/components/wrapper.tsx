@@ -23,6 +23,10 @@ const NavLinks = [
     {
         title: "Youtube",
         url: "https://www.youtube.com/@PlumfieldLibrary"
+    },
+    {
+        title: "Podcast",
+        url: "https://open.spotify.com/show/1plEs7Quy4ZTf6Z9vvTH24?si=3ccd27b2e99a4014"
     }
 ]
 //TODO: Finish Nav Bar
